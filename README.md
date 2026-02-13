@@ -1,30 +1,31 @@
 ## Tech Stack
 
 ### Languages
-- **C / C++** (Embedded FW, ROS2 노드/라이브러리 연동)
-- **Python** (ROS2 툴링/노드, 데이터 수집/전처리/실험 스크립트)
+![C](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/GNU%20Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-### Robotics / Middleware
-- **ROS 2 (Humble)**: topic / service / action / parameter, custom interfaces, 노드 통합 및 디버깅
-- **RViz2 / TF**: 센서/로봇 상태 시각화, 프레임 구성 점검
-- **SLAM / Mapping**: LiDAR 기반 매핑 파이프라인 구성 및 검증(프로젝트별 적용)
+### Robotics / Simulation
+![ROS2](https://img.shields.io/badge/ROS%202-000000?style=for-the-badge&logo=ros&logoColor=white)
+![Gazebo](https://img.shields.io/badge/Gazebo-000000?style=for-the-badge&logo=gazebo&logoColor=white)
+![MoveIt](https://img.shields.io/badge/MoveIt-000000?style=for-the-badge&logo=ros&logoColor=white)
+![Isaac Sim](https://img.shields.io/badge/Isaac%20Sim-000000?style=for-the-badge&logo=nvidia&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-000000?style=for-the-badge&logo=opencv&logoColor=white)
 
-### Simulation / Motion
-- **Gazebo (Classic)**: URDF/SDF 환경 구성, 센서/플러그인 연동, 시뮬레이션 디버깅
-- **Isaac Sim** : 시뮬레이션 환경 구성 및 시뮬레이션 디버깅
-- **MoveIt2**: 매니퓰레이터 경로 계획/제어 파이프라인 구성(UR5e 기반)
+### Embedded / HW
+![STM32](https://img.shields.io/badge/STM32-000000?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-000000?style=for-the-badge&logo=arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-000000?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-000000?style=for-the-badge&logo=nvidia&logoColor=white)
 
-### Computer Vision / ML
-- **OpenCV**: 카메라 입력 처리, 전처리 파이프라인 구성
-- **YOLO (Custom Fine-tuning)**: 객체 탐지 데이터셋 구성/학습/평가(버튼 인식 등)
-- (필요 시) **VLM/로봇 비전 파이프라인** 연동 설계 경험
+### OS / Dev
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-000000?style=for-the-badge&logo=ubuntu&logoColor=white)
+![WSL](https://img.shields.io/badge/WSL-000000?style=for-the-badge&logo=windows&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS%20Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)
 
-### Embedded / Hardware
-- **STM32 (Nucleo-F103RB)**: CubeIDE 기반 FW 개발, USB/통신 디버깅
-- **Arduino (Nano 33 IoT 등)**: 센서(Flex/IMU) 데이터 수집, 통신(UART/I2C) 연동
-- **Jetson / Raspberry Pi 계열**: 로봇 컴퓨팅 보드 환경 구성 및 장치 연동
-
-### Dev Environment / Tools
-- **Linux (Ubuntu 22.04)**, **WSL + VSCode**
-- **Git / GitHub**: 브랜치/이슈 기반 관리, 문서화(README/가이드) 중심 작업
-- **Notion**: 협업 문서/실험 기록/설계 정리
+### CV / ML
+![Ultralytics](https://img.shields.io/badge/Ultralytics-000000?style=for-the-badge&logo=ultralytics&logoColor=white)
