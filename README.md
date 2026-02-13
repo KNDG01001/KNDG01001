@@ -1,4 +1,7 @@
-![signglove](./signgloveimg.jpg)
+<p align="center">
+  <img src="./signgloveimg.jpg" width="450" />
+</p>
+
 
 ## Tech Stack
 
