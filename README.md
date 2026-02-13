@@ -1,4 +1,4 @@
-([signgloveimg.jpg](https://github.com/KNDG01001/KNDG01001/blob/main/signgloveimg.jpg))
+![signglove](./signgloveimg.jpg)
 
 ## Tech Stack
 
